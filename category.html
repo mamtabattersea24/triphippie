@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Triphippis</title>
+   <link rel="stylesheet" href="assets/css/bootstrap.css">
+   <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="preload" href="assets/font-family/Aeonik/AeonikTRIAL-Regular.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="assets/font-family/Aeonik/AeonikTRIAL-Bold.woff2" as="font" type="font/woff2" crossorigin>
+   <style>
+      @font-face {
+      font-display: swap;
+      font-family: 'Aeonik TRIAL';
+      font-style: normal;
+      font-weight: 400;
+      src: url("assets/font-family/Aeonik/AeonikTRIAL-Regular.woff2")
+      format("woff2");
+      }
+      @font-face {
+      font-display: swap;
+      font-family: 'Aeonik TRIAL';
+      font-style: normal;
+      font-weight: 700;
+      src: url("assets/font-family/Aeonik/AeonikTRIAL-Bold.woff2") format("woff2");
+   }
+   </style>
+</head>
+
+<body>
+   <header class="header-blog">
+      <div class="container d-flex align-items-center justify-content-between">
+         <div id="trip-logo">
+            <a href="index.html">
+               <img src="assets/img/finaltrip-logo.svg" alt="">
+            </a>
+         </div>
+         <nav>
+            <ul>
+               <li class="dropdown">
+                  <a href="#"> Top 10 </a>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 448 512">
+                     <path
+                        d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
+                     </path>
+                  </svg>
+                  <ul>
+                     <li>
+                        <a href="#">Top 10</a>
+                     </li>
+                     <li>
+                        <a href="#">HTML &amp; CSS</a>
+                     </li>
+                     <li>
+                        <a href="#">JavaScript</a>
+                     </li>
+                     <li>
+                        <a href="#">PHP &amp; MySQL</a>
+                     </li>
+                     <li class="dropdown">
+                        <a href="#"> Top 10 </a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 448 512">
+                           <path
+                              d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
+                           </path>
+                        </svg>
+                        <ul>
+                           <li>
+                              <a href="#">Top 10</a>
+                           </li>
+                           <li class="dropdown">
+                              <a href="#"> Top 10 </a>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 448 512">
+                                 <path
+                                    d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
+                                 </path>
+                              </svg>
+                              <ul>
+                                 <li>
+                                    <a href="#">Top 10</a>
+                                 </li>
+                                 <li>
+                                    <a href="#">HTML &amp; CSS</a>
+                                 </li>
+                                 <li>
+                                    <a href="#">JavaScript</a>
+                                 </li>
+                                 <li>
+                                    <a href="#">PHP &amp; MySQL</a>
+                                 </li>
+                              </ul>
+                           </li>
+                           <li>
+                              <a href="#">HTML &amp; CSS</a>
+                           </li>
+                           <li>
+                              <a href="#">JavaScript</a>
+                           </li>
+                           <li>
+                              <a href="#">PHP &amp; MySQL</a>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <a href="#"> Troubleshoot </a>
+               </li>
+               <li>
+                  <a href="#"> How to </a>
+               </li>
+               <li class="dropdown">
+                  <a href="#"> Reviews </a>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 448 512">
+                     <path
+                        d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z">
+                     </path>
+                  </svg>
+                  <ul>
+                     <li>
+                        <a href="#">Top 10</a>
+                     </li>
+                     <li>
+                        <a href="#">HTML &amp; CSS</a>
+                     </li>
+                     <li>
+                        <a href="#">JavaScript</a>
+                     </li>
+                     <li>
+                        <a href="#">PHP &amp; MySQL</a>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <a href="#"> Guide </a>
+               </li>
+               <li>
+                  <a href="#"> Product </a>
+               </li>
+               <li>
+                  <a href="#"> General </a>
+               </li>
+               <div class="cancel-btn">
+                  <svg fill="#000" xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 384 512">
+                     <path
+                        d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z">
+                     </path>
+                  </svg>
+               </div>
+            </ul>
+         </nav>
+         <div class="toggle-slide-btn">
+            <svg width="20" height="20" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+               <path
+                  d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32H480c17.7 0 32 14.3 32 32s-14.3 32-32 32H96c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z">
+               </path>
+            </svg>
+         </div>
+         <div class="search-form">
+            <form action="">
+               <input type="search" placeholder="What can we help you?" required="">
+               <button type="submit" class="search-btn trip-btn">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="17" viewBox="0 0 14 17" fill="none">
+                     <path
+                        d="M13.8086 12.1039L11.0824 9.37799C10.9594 9.25496 10.7926 9.1866 10.6176 9.1866H10.1719C10.9266 8.22146 11.375 7.00752 11.375 5.68694C11.375 2.54545 8.8293 0 5.6875 0C2.5457 0 0 2.54545 0 5.68694C0 8.82843 2.5457 11.3739 5.6875 11.3739C7.0082 11.3739 8.22227 10.9255 9.1875 10.1709V10.6165C9.1875 10.7915 9.25586 10.9583 9.37891 11.0813L12.1051 13.8072C12.3621 14.0643 12.7777 14.0643 13.032 13.8072L13.8059 13.0335C14.0629 12.7765 14.0629 12.3609 13.8086 12.1039ZM5.6875 9.1866C3.7543 9.1866 2.1875 7.62269 2.1875 5.68694C2.1875 3.75393 3.75156 2.18729 5.6875 2.18729C7.6207 2.18729 9.1875 3.7512 9.1875 5.68694C9.1875 7.61996 7.62344 9.1866 5.6875 9.1866Z"
+                        fill="#000"></path>
+                  </svg>
+               </button>
+            </form>
+         </div>
+         <div class="mob-search-btn">
+            <span class="search-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                  fill="none">
+                  <path d="M7.333 12.667A5.333 5.333 0 1 0 7.333 2a5.333 5.333 0 0 0 0 10.667ZM14 14l-2.9-2.9"
+                     stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+               </svg></span>
+         </div>
+      </div>
+   </header>
+   <main>
+      <div class="container">
+         <p id="breadcrumbs">
+            <span>
+               <span>
+                  <a href="#">Product</a>
+               </span> » <span>
+                  <a href="#">Accessories</a>
+               </span>
+            </span>
+         </p>
+
+         <div class="category-page">
+
+            <div class="row row-gap">
+               <div class="col-lg-3 col-md-4">
+                  <div class="trip-card border-none">
+                     <div class="img-placeholder cut-effect">
+                        <a href="#">
+                           <img src="https://cdn.triphippies.com/wp-content/uploads/2023/12/budget-trip.webp" alt=""
+                              class="img-fluid">
+                        </a>
+                     </div>
+                     <div class="trip-content">
+                        <a href="single.html" class="trip-title fs-small">Top 30 Theme Parks in California to Visit This
+                           Holid...</a>
+                        <div class="trip-aut">
+                           <div class="aut-inner">
+                              <a href="#">
+                                 <img src="https://cdn.triphippies.com/wp-content/uploads/2023/11/Helly-Hales.webp"
+                                    alt="" class="img-fluid">
+                              </a>
+                              <a href="author.html" class="aut-name">Esther Howard</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-4">
+                  <div class="trip-card border-none">
+                     <div class="img-placeholder cut-effect">
+                        <a href="#">
+                           <img src="https://cdn.triphippies.com/wp-content/uploads/2023/12/budget-trip.webp" alt=""
+                              class="img-fluid">
+                        </a>
+                     </div>
+                     <div class="trip-content">
+                        <a href="single.html" class="trip-title fs-small">Top 30 Theme Parks in California to Visit This
+                           Holid...</a>
+                        <div class="trip-aut">
+                           <div class="aut-inner">
+                              <a href="#">
+                                 <img src="https://cdn.triphippies.com/wp-content/uploads/2023/11/Helly-Hales.webp"
+                                    alt="" class="img-fluid">
+                              </a>
+                              <a href="author.html" class="aut-name">Esther Howard</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-4">
+                  <div class="trip-card border-none">
+                     <div class="img-placeholder cut-effect">
+                        <a href="#">
+                           <img src="https://cdn.triphippies.com/wp-content/uploads/2023/12/budget-trip.webp" alt=""
+                              class="img-fluid">
+                        </a>
+                     </div>
+                     <div class="trip-content">
+                        <a href="single.html" class="trip-title fs-small">Top 30 Theme Parks in California to Visit This
+                           Holid...</a>
+                        <div class="trip-aut">
+                           <div class="aut-inner">
+                              <a href="#">
+                                 <img src="https://cdn.triphippies.com/wp-content/uploads/2023/11/Helly-Hales.webp"
+                                    alt="" class="img-fluid">
+                              </a>
+                              <a href="author.html" class="aut-name">Esther Howard</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-4">
+                  <div class="trip-card border-none">
+                     <div class="img-placeholder cut-effect">
+                        <a href="#">
+                           <img src="https://cdn.triphippies.com/wp-content/uploads/2023/12/budget-trip.webp" alt=""
+                              class="img-fluid">
+                        </a>
+                     </div>
+                     <div class="trip-content">
+                        <a href="single.html" class="trip-title fs-small">Top 30 Theme Parks in California to Visit This
+                           Holid...</a>
+                        <div class="trip-aut">
+                           <div class="aut-inner">
+                              <a href="#">
+                                 <img src="https://cdn.triphippies.com/wp-content/uploads/2023/11/Helly-Hales.webp"
+                                    alt="" class="img-fluid">
+                              </a>
+                              <a href="author.html" class="aut-name">Esther Howard</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-4">
+                  <div class="trip-card border-none">
+                     <div class="img-placeholder cut-effect">
+                        <a href="#">
+                           <img src="https://cdn.triphippies.com/wp-content/uploads/2023/12/budget-trip.webp" alt=""
+                              class="img-fluid">
+                        </a>
+                     </div>
+                     <div class="trip-content">
+                        <a href="single.html" class="trip-title fs-small">Top 30 Theme Parks in California to Visit This
+                           Holid...</a>
+                        <div class="trip-aut">
+                           <div class="aut-inner">
+                              <a href="#">
+                                 <img src="https://cdn.triphippies.com/wp-content/uploads/2023/11/Helly-Hales.webp"
+                                    alt="" class="img-fluid">
+                              </a>
+                              <a href="author.html" class="aut-name">Esther Howard</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-4">
+                  <div class="trip-card border-none">
+                     <div class="img-placeholder cut-effect">
+                        <a href="#">
+                           <img src="https://cdn.triphippies.com/wp-content/uploads/2023/12/budget-trip.webp" alt=""
+                              class="img-fluid">
+                        </a>
+                     </div>
+                     <div class="trip-content">
+                        <a href="single.html" class="trip-title fs-small">Top 30 Theme Parks in California to Visit This
+                           Holid...</a>
+                        <div class="trip-aut">
+                           <div class="aut-inner">
+                              <a href="#">
+                                 <img src="https://cdn.triphippies.com/wp-content/uploads/2023/11/Helly-Hales.webp"
+                                    alt="" class="img-fluid">
+                              </a>
+                              <a href="author.html" class="aut-name">Esther Howard</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-4">
+                  <div class="trip-card border-none">
+                     <div class="img-placeholder cut-effect">
+                        <a href="#">
+                           <img src="https://cdn.triphippies.com/wp-content/uploads/2023/12/budget-trip.webp" alt=""
+                              class="img-fluid">
+                        </a>
+                     </div>
+                     <div class="trip-content">
+                        <a href="single.html" class="trip-title fs-small">Top 30 Theme Parks in California to Visit This
+                           Holid...</a>
+                        <div class="trip-aut">
+                           <div class="aut-inner">
+                              <a href="#">
+                                 <img src="https://cdn.triphippies.com/wp-content/uploads/2023/11/Helly-Hales.webp"
+                                    alt="" class="img-fluid">
+                              </a>
+                              <a href="author.html" class="aut-name">Esther Howard</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-4">
+                  <div class="trip-card border-none">
+                     <div class="img-placeholder cut-effect">
+                        <a href="#">
+                           <img src="https://cdn.triphippies.com/wp-content/uploads/2023/12/budget-trip.webp" alt=""
+                              class="img-fluid">
+                        </a>
+                     </div>
+                     <div class="trip-content">
+                        <a href="single.html" class="trip-title fs-small">Top 30 Theme Parks in California to Visit This
+                           Holid...</a>
+                        <div class="trip-aut">
+                           <div class="aut-inner">
+                              <a href="#">
+                                 <img src="https://cdn.triphippies.com/wp-content/uploads/2023/11/Helly-Hales.webp"
+                                    alt="" class="img-fluid">
+                              </a>
+                              <a href="author.html" class="aut-name">Esther Howard</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+              
+             
+            </div>
+         </div>
+
+
+      </div>
+      <nav class="navigation pagination" aria-label="Posts">
+         <div class="nav-links">
+            <a class="next page-numbers" href="#">«</a>
+            <span aria-current="page" class="page-numbers current">
+               <span class="meta-nav screen-reader-text"></span>1 </span>
+            <a class="page-numbers" href="#">
+               <span class="meta-nav screen-reader-text"></span> 2 </a>
+            <span class="page-numbers dots">…</span>
+            <a class="page-numbers" href="#">
+               <span class="meta-nav screen-reader-text"></span> 17 </a>
+            <a class="next page-numbers" href="#">»</a>
+         </div>
+      </nav>
+   </main>
+
+
+   <footer>
+      <div class="container">
+         <div class="top-part cut-effect">
+            <div class="row row-gap">
+               <div class="col-lg-4 col-md-4">
+                  <div class="category-title">Top Categories</div>
+                  <ul>
+                     <li>
+                        <a href="#">India</a>
+                     </li>
+                     <li>
+                        <a href="#">United States</a>
+                     </li>
+                     <li>
+                        <a href="#">India </a>
+                     </li>
+                     <li>
+                        <a href="#">Travel Guide</a>
+                     </li>
+                     <li>
+                        <a href="#">General</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-lg-4 col-md-4">
+                  <div class="category-title">Top Categories</div>
+                  <ul>
+                     <li>
+                        <a href="404.html">404 Page</a>
+                     </li>
+                     <li>
+                        <a href="thankyou.html">Thankyou Page </a>
+                     </li>
+                     <li>
+                        <a href="single.html">Blog Page</a>
+                     </li>
+                     <li>
+                        <a href="all-author.html">All-author Page</a>
+                     </li>
+                     <li>
+                        <a href="category.html">Category Page</a>
+                     </li>
+                     <li>
+                        <a href="author.html">Author Page </a>
+                     </li>
+
+                  </ul>
+               </div>
+               <div class="col-lg-4 col-md-4">
+                  <img src="assets/img/footer-trip.svg" alt="" class="img-fluid">
+                  <div class="mail-to">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                        <g clip-path="url(#clip0_2454_662)">
+                           <rect width="36" height="36" rx="2" fill="white" />
+                           <path
+                              d="M12 12H24C24.825 12 25.5 12.675 25.5 13.5V22.5C25.5 23.325 24.825 24 24 24H12C11.175 24 10.5 23.325 10.5 22.5V13.5C10.5 12.675 11.175 12 12 12Z"
+                              stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                           <path d="M25.5 13.5L18 18.75L10.5 13.5" stroke="black" stroke-width="1.5"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                           <clipPath id="clip0_2454_662">
+                              <rect width="36" height="36" rx="2" fill="white" />
+                           </clipPath>
+                        </defs>
+                     </svg>
+                     <a href="info.triphippies@gmail.com">info.triphippies@gmail.com</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="bottom-part">
+            <div class="footer-img">
+               <a href="#">
+                  <img src="assets/img/footer-logo-trip.svg" alt="" class="img-fluid">
+               </a>
+            </div>
+            <div class="trip-social-links">
+               <ul>
+                  <li>
+                     <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                           <g clip-path="url(#clip0_2452_605)">
+                              <path
+                                 d="M12.3428 9.61905L12.7871 6.72342H10.0087V4.84436C10.0087 4.05217 10.3968 3.27999 11.6412 3.27999H12.9043V0.814674C12.9043 0.814674 11.7581 0.619049 10.6621 0.619049C8.37402 0.619049 6.8784 2.00592 6.8784 4.51655V6.72342H4.33496V9.61905H6.8784V16.619H10.0087V9.61905H12.3428Z"
+                                 fill="#111111" />
+                           </g>
+                           <defs>
+                              <clipPath id="clip0_2452_605">
+                                 <rect width="16" height="16" fill="white" transform="translate(0.619141 0.619141)" />
+                              </clipPath>
+                           </defs>
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                           <path
+                              d="M8.10019 5.02598C6.1127 5.02598 4.50957 6.6291 4.50957 8.6166C4.50957 10.6041 6.1127 12.2072 8.10019 12.2072C10.0877 12.2072 11.6908 10.6041 11.6908 8.6166C11.6908 6.6291 10.0877 5.02598 8.10019 5.02598ZM8.10019 10.951C6.81582 10.951 5.76582 9.9041 5.76582 8.6166C5.76582 7.3291 6.8127 6.28222 8.10019 6.28222C9.3877 6.28222 10.4346 7.3291 10.4346 8.6166C10.4346 9.9041 9.38457 10.951 8.10019 10.951ZM12.6752 4.8791C12.6752 5.34473 12.3002 5.7166 11.8377 5.7166C11.3721 5.7166 11.0002 5.3416 11.0002 4.8791C11.0002 4.4166 11.3752 4.0416 11.8377 4.0416C12.3002 4.0416 12.6752 4.4166 12.6752 4.8791ZM15.0533 5.7291C15.0002 4.60723 14.7439 3.61348 13.9221 2.79473C13.1033 1.97598 12.1096 1.71973 10.9877 1.66348C9.83144 1.59785 6.36582 1.59785 5.20957 1.66348C4.09082 1.7166 3.09707 1.97285 2.2752 2.7916C1.45332 3.61035 1.2002 4.6041 1.14395 5.72598C1.07832 6.88222 1.07832 10.3478 1.14395 11.5041C1.19707 12.626 1.45332 13.6197 2.2752 14.4385C3.09707 15.2572 4.0877 15.5135 5.20957 15.5697C6.36582 15.6353 9.83144 15.6353 10.9877 15.5697C12.1096 15.5166 13.1033 15.2603 13.9221 14.4385C14.7408 13.6197 14.9971 12.626 15.0533 11.5041C15.1189 10.3478 15.1189 6.88535 15.0533 5.7291ZM13.5596 12.7447C13.3158 13.3572 12.8439 13.8291 12.2283 14.076C11.3064 14.4416 9.11895 14.3572 8.10019 14.3572C7.08145 14.3572 4.89082 14.4385 3.97207 14.076C3.35957 13.8322 2.8877 13.3603 2.64082 12.7447C2.2752 11.8228 2.35957 9.63535 2.35957 8.6166C2.35957 7.59785 2.27832 5.40723 2.64082 4.48848C2.88457 3.87598 3.35645 3.4041 3.97207 3.15723C4.89394 2.7916 7.08145 2.87598 8.10019 2.87598C9.11895 2.87598 11.3096 2.79473 12.2283 3.15723C12.8408 3.40098 13.3127 3.87285 13.5596 4.48848C13.9252 5.41035 13.8408 7.59785 13.8408 8.6166C13.8408 9.63535 13.9252 11.826 13.5596 12.7447Z"
+                              fill="#111111" />
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+                           <path
+                              d="M12.7664 1.5H14.9727L10.1539 7.00625L15.8227 14.5H11.3852L7.90703 9.95625L3.93203 14.5H1.72266L6.87578 8.60938L1.44141 1.5H5.99141L9.13203 5.65312L12.7664 1.5ZM11.9914 13.1812H13.2133L5.32578 2.75H4.01328L11.9914 13.1812Z"
+                              fill="#111111" />
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512">
+                           <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                           <path
+                              d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z" />
+                        </svg>
+                     </a>
+                  </li>
+                  <li>
+                     <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
+                           <g clip-path="url(#clip0_2452_597)">
+                              <path
+                                 d="M9.35352 0.748047C6.14727 0.748047 2.97852 2.88555 2.97852 6.34492C2.97852 8.54492 4.21602 9.79492 4.96602 9.79492C5.27539 9.79492 5.45352 8.93242 5.45352 8.68867C5.45352 8.39805 4.71289 7.7793 4.71289 6.56992C4.71289 4.05742 6.62539 2.27617 9.10039 2.27617C11.2285 2.27617 12.8035 3.48555 12.8035 5.70742C12.8035 7.3668 12.1379 10.4793 9.98164 10.4793C9.20352 10.4793 8.53789 9.9168 8.53789 9.11055C8.53789 7.9293 9.36289 6.78555 9.36289 5.5668C9.36289 3.49805 6.42852 3.87305 6.42852 6.37305C6.42852 6.89805 6.49414 7.4793 6.72852 7.95742C6.29727 9.81367 5.41602 12.5793 5.41602 14.4918C5.41602 15.0824 5.50039 15.6637 5.55664 16.2543C5.66289 16.373 5.60977 16.3605 5.77227 16.3012C7.34727 14.1449 7.29102 13.723 8.00352 10.9012C8.38789 11.6324 9.38164 12.0262 10.1691 12.0262C13.4879 12.0262 14.9785 8.7918 14.9785 5.87617C14.9785 2.77305 12.2973 0.748047 9.35352 0.748047Z"
+                                 fill="#111111" />
+                           </g>
+                           <defs>
+                              <clipPath id="clip0_2452_597">
+                                 <rect width="16" height="16" fill="white" transform="translate(0.978516 0.544922)" />
+                              </clipPath>
+                           </defs>
+                        </svg>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            <p>
+               <strong>DISCLAIMER:</strong> All the information, media, links, and other data provided on the website
+               are meant for reference as well as information purposes only. We do not claim the rightness of the
+               information as we have utilized the web portals to collect and sort the information. Any user continuing
+               with the steps and services is solely responsible to check for the correctness of the resources. We do
+               not take any liability for the errors, omissions, and services. Furthermore, we are not associated with
+               the third-party sites mentioned and hold no authority over the service offered by them.
+            </p>
+            <p class="copyright text-center">
+               Copyright
+               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
+                  <path
+                     d="M6.66667 0C10.3467 0 13.3333 2.98667 13.3333 6.66667C13.3333 10.3467 10.3467 13.3333 6.66667 13.3333C2.98667 13.3333 0 10.3467 0 6.66667C0 2.98667 2.98667 0 6.66667 0ZM6.66667 1.33333C3.72 1.33333 1.33333 3.72 1.33333 6.66667C1.33333 9.61333 3.72 12 6.66667 12C9.61333 12 12 9.61333 12 6.66667C12 3.72 9.61333 1.33333 6.66667 1.33333ZM6.66667 3.33333C7.88 3.33333 8.942 3.982 9.52533 4.952L8.38267 5.638C8.20284 5.33816 7.94756 5.0907 7.64226 4.9203C7.33697 4.74989 6.99235 4.66249 6.64275 4.66682C6.29314 4.67115 5.95078 4.76704 5.6498 4.94495C5.34882 5.12285 5.09973 5.37655 4.92738 5.68075C4.75503 5.98494 4.66543 6.32901 4.66752 6.67863C4.66961 7.02825 4.76332 7.37122 4.9393 7.67333C5.11528 7.97544 5.36738 8.22614 5.67047 8.40044C5.97356 8.57473 6.31704 8.66652 6.66667 8.66667C7.01209 8.66689 7.35167 8.57759 7.6523 8.40747C7.95293 8.23736 8.20433 7.99223 8.382 7.696L9.52533 8.38133C9.15068 9.00708 8.5811 9.49265 7.90395 9.76357C7.2268 10.0345 6.47948 10.0758 5.7766 9.88115C5.07372 9.68651 4.45409 9.26667 4.01276 8.68603C3.57142 8.10539 3.33275 7.396 3.33333 6.66667C3.33333 4.82667 4.82667 3.33333 6.66667 3.33333Z"
+                     fill="white" />
+               </svg>
+               <strong>2023 Triphippies.</strong>All Rights Reserved
+            </p>
+         </div>
+      </div>
+   </footer>
+
+
+   <button id="myBtn">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="#FFF">
+         <path
+            d="M2.721 10.816 1.905 10a.879.879 0 0 1 0-1.247l7.144-7.146a.879.879 0 0 1 1.247 0l7.142 7.142a.879.879 0 0 1 0 1.247l-.816.816a.882.882 0 0 1-1.261-.015l-4.216-4.425v10.565a.88.88 0 0 1-.882.882H9.087a.88.88 0 0 1-.882-.882V6.372L3.982 10.8a.876.876 0 0 1-1.261.015Z">
+         </path>
+      </svg>
+   </button>
+   <script src="assets/js/script.js"></script>
+</body>
+
+</html>
